@@ -1,0 +1,21 @@
+
+
+.container {
+    font-size: 36px;
+    border-color: yellowgreen;
+    animation: 2.5s ease-in animateContainer infinite;
+}
+
+@keyframes animateContainer {
+    0% {
+        box-shadow: 4px 4px 18px 0px yellowgreen;
+    } 25% {
+        box-shadow: 4px 4px 49px 0px yellowgreen;
+    } 50% {
+        box-shadow: 4px 4px 67px 0px yellowgreen;
+    } 75% {
+        box-shadow: 4px 4px 49px 0px yellowgreen;
+    } 100% {
+        box-shadow: 4px 4px 18px 0px yellowgreen;
+    }
+}
